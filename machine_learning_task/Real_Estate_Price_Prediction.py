@@ -11,6 +11,7 @@ from sklearn.metrics import r2_score, mean_absolute_error
 import matplotlib.pyplot as plt
 
 # Load the data
+csv_path = 'real_estate_data.csv'
 data = pd.read_csv(csv_path)
 
 # One-hot encode categorical 'Location'
