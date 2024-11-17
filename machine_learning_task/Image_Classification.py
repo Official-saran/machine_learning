@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Load the generated CSV file
-csv_path = '/mnt/data/image_classification_data.csv'
+csv_path = 'image_classification_data.csv'
 data = pd.read_csv(csv_path)
 
 # Features and labels
